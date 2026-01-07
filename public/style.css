@@ -82,3 +82,11 @@ body{
 .login-box button:hover{
     background-color: #d0d0d0;
 }
+
+#selection, #person{
+    display: inline;
+    margin-top: 15px;
+    font-weight: 500;
+    width: 187px;
+    border-radius: 3px;
+}
