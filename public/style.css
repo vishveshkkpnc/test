@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+/* Full page background */
+body{
+    height: 100vh;
+    width: 100vw;
+}
+  
+/* Background container */
+.page{
+    height: 100vh;
+    background-image: url("hostel_image.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+}
+
+/* HEADER */
+.header {
+    position: absolute;  
+    top: 30px;
+    left: 48%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #1f4e79;
+}
+
+/* Login box on right side */
+.login-box{
+    width: 320px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;  
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.login-box h2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #1f4e79;
+}
+
+/* Labels */
+.login-box label{
+    font-size: 15px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Inputs */
+.login-box input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+/* Button */
+.login-box button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-box button:hover{
+    background-color: #d0d0d0;
+}
