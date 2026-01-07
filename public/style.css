@@ -86,7 +86,7 @@ body{
 #selection, #person{
     display: inline;
     margin-top: 15px;
-    font-weight: 500;
+    font-size: 15px;
     width: 187px;
     border-radius: 3px;
 }
