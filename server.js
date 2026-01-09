@@ -10,6 +10,7 @@ app.use(express.static("public"));
 // Dummy login data (temporary)
 const users = {
     "admin": "1234",
+    "worker01": "work123",
     "student01": "vnit123"
 };
 
